@@ -1,0 +1,346 @@
+.clsgenroundcurv1
+{
+	background-image:url(../images/background_image.png);
+	background-repeat:repeat;
+		
+	border-left:1px solid #d4d4d4;	
+	border-right:1px solid #d4d4d4;
+}
+.wrapclass
+{
+	
+	
+}
+.clsbuttonbg
+{
+	background: #fff url(../images/button_bg.png) repeat-x;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #555;
+	width:30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
+	border: 1px solid rgba(0, 0, 0, 0.246094);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.347656);
+	cursor: pointer;
+	text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 1px;
+}
+.clsbuttonbg:hover
+{
+	background-color: #eee;
+}
+
+.clsbuttonbg:active
+{
+	background: #fff url(../images/button_bgactive.png) repeat-x;
+	
+}
+.clscreatetracediv {
+	width:960px;
+	height:550px;
+	position:absolute;
+	background-color:#FFF;
+	color:#000000;
+	z-index:2000;
+	border:0px solid red;
+	background:#fff;
+	top:50%;
+	left:50%;
+	margin:-280px 0 0 -480px;
+	list-style:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:8px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0px 0px 5px #444444;
+	-webkit-box-shadow:0px 0px 5px #444444;
+	box-shadow:0px 0px 5px #444444;
+	text-align:center;
+	display:none;
+}
+.clsopcaity {
+	width:100%;
+	height:100%;
+	position:absolute;
+	display:none;
+	z-index:999;
+	background-color:#000;
+	-moz-opacity: 0.6;
+	opacity:.60;
+	filter: alpha(opacity=60);
+}
+.clslabelbox {
+	height:27px;
+	width:200px;
+	border:1px solid #c3c3c3;
+	border-radius:4px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:2px;
+}
+.clslabelboxdefault {
+	color:#CCC;
+}
+
+
+.clscommentbox {
+	height:40px;
+	width:270px;
+	border:1px solid #c3c3c3;
+	border-radius:4px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:2px;
+	resize:none;
+}
+.clstracenamebox {
+	height:20px;
+	width:250px;
+	border:1px solid #c3c3c3;
+	border-radius:4px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:2px;
+}
+.clsdivlabel {
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.clsdivspace {
+	width:auto;
+	height:5px;
+}
+#container {
+}
+.column .placeholder {
+	background: #f0f0f0;
+	border:1px dashed #ddd;
+}
+.topclass {
+	list-style-type: none;
+	position: relative;
+	margin:0;
+}
+.topclass li {
+	width: 239px;
+	display:none;
+}
+.labels {
+	width:244px;
+	border:solid thin;
+	border-color:#afafaf;
+	box-shadow: inset 0 1px 1px hsla(0,0%,100%,.5), 1px 1px 0 hsla(0,0%,0%,.1);
+	color: #333;
+	font: 14px sans-serif;
+	padding: 6px 8px 8px 6px;
+	text-shadow: 0 1px 1px hsla(0,0%,100%,.5);
+	background: rgb(231,231,231); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(231,231,231,1) 70%, rgba(221,221,221,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, rgba(231,231,231,1)), color-stop(100%, rgba(221,221,221,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(231,231,231,1) 70%, rgba(221,221,221,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(231,231,231,1) 70%, rgba(221,221,221,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(231,231,231,1) 70%, rgba(221,221,221,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(231,231,231,1) 70%, rgba(221,221,221,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#dddddd', GradientType=0 ); /* IE6-9 */
+}
+.topclassleft {
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+}
+.topclassright {
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+}
+#container1 {
+}
+#container0 {
+}
+.clslabelcommnets {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#6b6a6a;
+	cursor:pointer;
+	opacity:0;
+}
+.arrow {
+	opacity:0.6;
+	cursor:pointer;
+}
+.arrow:hover {
+	opacity:1;
+}
+.btntag {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	padding: 4px 11px;
+	cursor:pointer;
+	background: -moz-linear-gradient( top, #c91919 0%, #c91919);
+	background: -webkit-gradient( linear, left top, left bottom, from(#c91919), to(#c91919));
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 0px solid #ffffff;
+	-moz-box-shadow:
+ 1px 2px 3px rgba(000,000,000,0.6), inset 0px 0px 0px rgba(255,255,255,0);
+	-webkit-box-shadow:
+ 1px 2px 3px rgba(000,000,000,0.6), inset 0px 0px 0px rgba(255,255,255,0);
+	box-shadow:
+ 1px 2px 3px rgba(000,000,000,0.6), inset 0px 0px 0px rgba(255,255,255,0);
+	text-shadow:
+ 0px -1px 0px rgba(000,000,000,0.4), 1px 1px 1px rgba(255,255,255,0.3);
+	opacity:.9;
+}
+.clsaddtopic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #c91919;
+	padding: 4px 11px;
+	cursor:pointer;
+	text-shadow:
+ 0px -1px 0px rgba(000,000,000,0.3), 1px 1px 1px rgba(255,255,255,0.3);
+}
+.clstopicheader {
+	font-size:36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#000000;
+}
+.clstopicsub {
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#3a3a3a;
+}
+.clstopicdesc {
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#000000;
+	line-height:18px;
+}
+.clseditmed {
+	height:auto;
+	width:100%;
+	border:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	cursor:pointer;
+	margin-top:0px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:2px;
+	padding-right:2px;
+	margin-top:0px;
+	margin-left:0px;
+	text-align:center;
+	outline:0;
+}
+.grablue {
+	background: #0ea7d5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#10b3da), to(#0ea7d5) );
+	background: -moz-linear-gradient(-90deg, #10b3da, #0ea7d5);
+ filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#10b3da', endColorstr='#0ea7d5');
+}
+.grablue:hover {
+	background: #0c89fa;
+}
+.grablue:active {
+	color: #fcd3a5;
+	background: #0ea7d5;
+}
+.grayellow {
+	background: #ffd459;
+	background: -webkit-gradient(linear, left top, left bottom, from(#10b3da), to(#0ea7d5) );
+	background: -moz-linear-gradient(-90deg, #fec20c, #ffd459);
+}
+.grayellow:hover {
+	background: #fec20c;
+}
+.grayellow:active {
+	color: #fcd3a5;
+	background: #ffd459;
+}
+.clstracename {
+	text-align:center;
+	width:600px;
+	color:#c91919;
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.topiclinks
+{
+	color:#c91919;
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-decoration:none;
+}
+.clstopbar {
+	width: 1px;
+	background-color:#000000;
+}
+.clssidebar {
+	height:1px;
+	background-image:url(../images/side-connector.png);
+	background-repeat:repeat-x;
+	width:40px;
+}
+.clstooltipright {
+	height:17px;
+	background-image:url(../images/tool_tip.png);
+	background-repeat:no-repeat;
+	width:13px;
+	z-index:1000;
+}
+.clstooltipleft {
+	height:17px;
+	background-image:url(../images/tool_tip_left.png);
+	background-repeat:no-repeat;
+	width:13px;
+	z-index:1000;
+}
+.clslabeltitle {
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000000;
+}
+.clslabelseparator {
+	width:240px;
+	background-image:url(../images/labeldivider.png);
+	height:3px;
+	background-repeat:repeat-x;
+}
+.clslabelbody {
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#6b6a6a;
+}
+.clsuservote
+{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}

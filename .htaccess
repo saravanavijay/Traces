@@ -1,0 +1,25 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+# RewriteCond %{HTTP_HOST} ^thetraces\.com$
+# RewriteRule (.*) http://www.thetraces.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+#RewriteCond %{HTTP_HOST} ^(www.)?thetraces\.com$ [NC]
+#RewriteRule ^(.+)/$ http://www.thetraces.com/$1 [R=301,L]
+
+RewriteRule Topic/(.*)/ topic.php?topic=$1 
+RewriteRule Topic/(.*) topic.php?topic=$1 
+
+RewriteRule Trace/(.*)/ trace.php?trace=$1 
+RewriteRule Trace/(.*) trace.php?trace=$1 
+
+
+RewriteRule ^settings$ settings.php
+RewriteRule ^login$ login.php
+RewriteRule ^register$ registeruser.php
+RewriteRule ^logout$ logout.php
+
