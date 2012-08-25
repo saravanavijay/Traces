@@ -17,9 +17,6 @@ RewriteRule Topic/(.*) topic.php?topic=$1
 RewriteRule Trace/(.*)/ trace.php?trace=$1 
 RewriteRule Trace/(.*) trace.php?trace=$1 
 
-RewriteRule User/(.*)/ profile.php?user_id=$1 
-RewriteRule User/(.*) profile.php?user_id=$1 
-
 
 RewriteRule ^settings$ settings.php
 RewriteRule ^login$ login.php
